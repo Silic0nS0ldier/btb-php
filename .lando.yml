@@ -1,0 +1,8 @@
+name: btb-php-app
+services:
+  custom:
+    type: php:7.3
+    via: nginx
+    ssl: true
+    xdebug: true
+    webroot: public

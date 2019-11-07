@@ -1,0 +1,19 @@
+{
+    "name": "btb-php-app",
+    "type": "project",
+    "require": {
+        "slim/slim": "^4.3",
+        "slim/psr7": "^0.6.0"
+    },
+    "authors": [
+        {
+            "name": "Jordan Mele",
+            "email": "SiliconSoldier@outlook.com.au"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jordan\\FastExperiment\\": "./src/"
+        }
+    }
+}
